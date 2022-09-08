@@ -1,0 +1,11 @@
+.hamburger {
+  cursor: pointer;
+  font-size: xx-large;
+  color: var(--color-primary-50);
+}
+
+@media (min-width: 40rem) {
+  .hamburger {
+    display: none;
+  }
+}

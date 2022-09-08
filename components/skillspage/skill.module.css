@@ -1,0 +1,10 @@
+.skill {
+  margin: 0;
+}
+
+@media (min-width: 40rem) {
+  .skill {
+    margin: auto;
+    max-width: 50rem;
+  }
+}

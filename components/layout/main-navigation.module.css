@@ -1,0 +1,123 @@
+.header {
+  background-color: var(--color-primary-700);
+  /* color: var(--color-primary-50); */
+  height: var(--size-20);
+  position: sticky;
+  padding-right: 1rem;
+  top: 0;
+  z-index: 1;
+}
+
+.headcontent {
+  height: 100%;
+}
+
+.headitems {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 var(--size-4);
+}
+
+.navigation {
+  width: 75%;
+  min-height: 100vh;
+  position: absolute;
+  background-color: inherit;
+  transition: 0.5s all ease-in;
+  z-index: 2;
+}
+
+.hidenavigation {
+  width: 75%;
+  min-height: 100vh;
+  position: absolute;
+  background-color: inherit;
+  transition: 0.1s all ease-in-out;
+  transform: translateX(-100%);
+}
+
+.navigation ul {
+  min-height: 50vh;
+  list-style: none;
+}
+
+.navigation li {
+  width: 100%;
+}
+
+.navigation li a {
+  display: inline-block;
+  color: white;
+  padding: 1.5rem 1rem;
+  width: 100%;
+}
+
+.signbtn {
+  border: none;
+  border-radius: 0.35rem;
+  padding: 0 1rem;
+  margin: 0 1rem;
+}
+
+@media (min-width: 40rem) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-primary-700);
+    height: var(--size-20);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  .headcontent {
+    height: 100%;
+  }
+  .headitems {
+    height: 100%;
+    padding: 0 var(--size-2);
+  }
+  .navigation {
+    height: auto;
+    display: flex;
+    min-height: fit-content;
+    width: fit-content;
+    position: relative;
+  }
+  .hidenavigation {
+    position: relative;
+    transform: translateX(0%);
+    height: auto;
+    display: flex;
+    min-height: fit-content;
+    width: fit-content;
+  }
+
+  .navigation ul,
+  .hidenavigation ul {
+    min-height: fit-content;
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+
+  .navigation li,
+  .hidenavigation li {
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .navigation li a,
+  .hidenavigation li a {
+    color: var(--color-primary-50);
+    display: inline-block;
+    padding: 0 1rem;
+    width: 100%;
+  }
+
+  .signbtn {
+    margin: 0;
+  }
+}

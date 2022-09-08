@@ -1,0 +1,10 @@
+.skillspage {
+  margin: 0;
+  padding: var(--size-1);
+  text-align: center;
+}
+
+.skillspage {
+  margin: 3rem auto;
+  max-width: 50rem;
+}

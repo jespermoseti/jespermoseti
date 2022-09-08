@@ -1,0 +1,12 @@
+.portifoliopage {
+  text-align: center;
+  margin: 0;
+  padding: var(--size-1);
+}
+
+@media (min-width: 40rem) {
+  .portifoliopage {
+    margin: 3rem auto;
+    max-width: 50rem;
+  }
+}
