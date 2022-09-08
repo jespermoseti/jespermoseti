@@ -1,9 +1,9 @@
 import { Fragment } from "react";
 import Link from "next/link";
-import { TiSocialTwitter, TiSocialLinkedin } from "react-icons/Ti";
-import { BsTelephone } from "react-icons/Bs";
-import { FiMail } from "react-icons/Fi";
-import { SiFiverr, SiUpwork } from "react-icons/Si";
+import { TiSocialTwitter, TiSocialLinkedin } from "react-icons/ti";
+import { BsTelephone } from "react-icons/bs";
+import { FiMail } from "react-icons/fi";
+import { SiFiverr, SiUpwork } from "react-icons/si";
 import classes from "./footer.module.css";
 function Footer() {
   const d = new Date();
