@@ -3,11 +3,11 @@ import { MongoClient } from "mongodb";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useSession, signIn, signOut } from "next-auth/react";
-import { BsTelephone } from "react-icons/Bs";
-import { FiMail } from "react-icons/Fi";
-import { TiSocialTwitter, TiSocialLinkedin } from "react-icons/Ti";
-import { SiFiverr, SiUpwork } from "react-icons/Si";
-import { RiDeleteBin6Line } from "react-icons/Ri";
+import { BsTelephone } from "react-icons/bs";
+import { FiMail } from "react-icons/fi";
+import { TiSocialTwitter, TiSocialLinkedin } from "react-icons/ti";
+import { SiFiverr, SiUpwork } from "react-icons/si";
+import { RiDeleteBin6Line } from "react-icons/ri";
 import classes from "./contacts.module.css";
 
 async function sendMessageData(details) {
