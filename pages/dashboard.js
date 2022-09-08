@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import { useSession, signIn, signOut } from "next-auth/react";
 import { getSession } from "next-auth/react";
 import classes from "./dashboard.module.css";
-import { RiDeleteBin6Line } from "react-icons/Ri";
+import { RiDeleteBin6Line } from "react-icons/ri";
 
 async function sendBriefDescriptionData(details) {
   const response = await fetch("api/descriptiondetails", {
