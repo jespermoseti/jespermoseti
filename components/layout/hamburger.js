@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { GiHamburgerMenu } from "react-icons/Gi";
-import { RiCloseLine } from "react-icons/Ri";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { RiCloseLine } from "react-icons/ri";
 import classes from "./hamburger.module.css";
 
 function Hamburger(props) {
