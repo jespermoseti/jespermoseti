@@ -45,9 +45,9 @@
 
 .navigation li {
   width: 100%;
-border-bottom:1.5px solid var(--color-primary-50);
-border-left:1.5px solid var(--color-primary-50);
-
+  border-bottom:1.5px solid var(--color-primary-50);
+  border-left:1.5px solid var(--color-primary-50);
+  border-radius: 0.5rem;
 }
 
 .navigation li a {
