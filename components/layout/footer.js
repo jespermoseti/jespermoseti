@@ -61,7 +61,7 @@ function Footer() {
                 <SiUpwork />
               </a>
             </Link>
-            <Link href="linkedin.com/in/moseti-jesper-530710a0">
+            <Link href="https://linkedin.com/in/moseti-jesper-530710a0">
               <a>
                 <TiSocialLinkedin />
               </a>
