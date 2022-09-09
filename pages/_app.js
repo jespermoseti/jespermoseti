@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
             name="viewport"
             content="initial-scale=1.0, width=device-width"
           />
-          <meta name="description" content="Jesper Moseti Onsoti's webpage" />
+          <meta name="description" content="Jesper Moseti Onsoti's professional site" />
         </Head>
         <Component {...pageProps} />
       </Layout>
