@@ -75,6 +75,7 @@ function Contacts(props) {
     nameRef.current.value = "";
     emailRef.current.value = "";
     messageRef.current.value = "";
+    router.push("/");
   }
 
   return (
