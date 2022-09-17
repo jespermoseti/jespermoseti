@@ -71,7 +71,7 @@ function Footer() {
       </footer>
       <div>
         <div className={classes.legal}>
-          <p>Copyright @{Year} Jesper Moseti Onsoti</p>
+          <p>Copyright @{Year} Designed by Techonsolutions</p>
         </div>
         <div className={classes.scrollup}></div>
       </div>
