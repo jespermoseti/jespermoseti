@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import Link from "next/link";
 import { TiSocialTwitter, TiSocialLinkedin } from "react-icons/ti";
-import { BsTelephone } from "react-icons/bs";
+import { BsTelephone, BsGithub } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
 import { SiFiverr, SiUpwork } from "react-icons/si";
 import classes from "./footer.module.css";
@@ -64,6 +64,11 @@ function Footer() {
             <Link href="https://linkedin.com/in/moseti-jesper-530710a0">
               <a>
                 <TiSocialLinkedin />
+              </a>
+            </Link>
+            <Link href="https://github.com/jespermoseti">
+              <a>
+                <BsGithub />
               </a>
             </Link>
           </div>
