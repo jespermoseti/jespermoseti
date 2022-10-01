@@ -27,12 +27,12 @@
 .hero h1 {
   font-size: var(--size-16);
   margin: var(--size-4) 0;
-  color: var(--color-grey-300);
+  color: var(--color-primary-700);
 }
 
 .hero p {
   font-size: var(--size-6);
-  color: var(--color-grey-200);
+  color: var(--color-primary-700);
   width: 90%;
   max-width: 40rem;
   margin: auto;
@@ -42,6 +42,12 @@
   .hero {
     border-radius: 2rem;
     background-color: var(--color-primary-700);
+    color: var(--color-primary-50);
+  }
+  .hero h1 {
+    color: var(--color-primary-50);
+  }
+  .hero p {
     color: var(--color-primary-50);
   }
 }
