@@ -10,7 +10,7 @@
   width: 300px;
   height: 300px;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
-  border: 1rem solid var(--color-primary-700);
+  border: 0.75rem solid var(--color-primary-700);
   border-radius: 50%;
   overflow: hidden;
   background-color: var(--color-grey-700);
