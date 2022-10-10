@@ -6,7 +6,7 @@ function Hero(props) {
     <section className={classes.hero}>
       <div className={classes.image}>
         <Image
-          src="/images/jesper-image.jpg"
+          src="/images/jesper-image.JPG"
           alt="an image showing jes"
           width={300}
           height={300}
