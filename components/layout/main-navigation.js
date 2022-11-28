@@ -48,6 +48,9 @@ function MainNavigation() {
           <li>
             <Link href="/portifolio">Portifolio</Link>
           </li>
+           <li>
+            <Link href="https://blog.techonsolutions.com/">Blog</Link>
+          </li>
           <li>
             <Link href="/contacts">Contacts</Link>
           </li>
