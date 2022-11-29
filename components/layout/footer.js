@@ -15,7 +15,7 @@ function Footer() {
         <div className={classes.personality}>
           <h4>Jesper Moseti Onsoti</h4>
           <p>
-            A technology specialist, founder and consultant at techonsolutions
+            An IT specialist, and consultant at techonsolutions
           </p>
         </div>
         <div className={classes.navlinks}>
