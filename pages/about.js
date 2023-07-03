@@ -11,9 +11,9 @@ function About(props) {
         <p key={item._id}>{item.about}</p>
       ))}
       <h4>
-        Download my Cv
+        Download my Cv here
         <Link href="https://www.dropbox.com/s/s9bjrdkeb219trj/Jesper_Moseti-cv%5B1%5D.docx?dl=0">
-          <a> here</a>
+          <button className={classes.btn}>Resume</button>
         </Link>
       </h4>
     </div>
