@@ -4,6 +4,12 @@
   text-align: center;
 }
 
+.btn {
+  background: #32a2a8;
+  color: white;
+  margin-left: 0.25rem;
+}
+
 @media (min-width: 40rem) {
   .aboutpage {
     margin: 3rem auto;
