@@ -12,7 +12,7 @@ function About(props) {
       ))}
       <h4>
         Download my Cv here
-        <Link href="https://www.dropbox.com/s/s9bjrdkeb219trj/Jesper_Moseti-cv%5B1%5D.docx?dl=0">
+        <Link href="https://www.dropbox.com/scl/fi/8bsz8q0bwqenztcw73s0h/personal_website_cv.pdf?rlkey=o87jw3teiys12vmn2aqf2idvb&st=xpssq8i6&dl=0">
           <button className={classes.btn}>Resume</button>
         </Link>
       </h4>
